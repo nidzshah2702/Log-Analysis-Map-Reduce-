@@ -5,13 +5,11 @@ Analyze the log files of the web server and the task is to find out visits per h
 
 Solution: In this, mapper creates keys for each hour and maps keys to observed pageview. Later, reducer computes the actual count of occurrences for each hour.
 
-IP				Time				URL               Status
-10.128.2.1
-[02/Mar/2018:15:46:12
-GET /profile.php?user=ham05 HTTP/1.1
-200
+# IP				Time				URL               Status
+10.128.2.1  [02/Mar/2018:15:46:12   GET /profile.php?user=ham05 HTTP/1.1      200
 This is an example of a log written.
 
 
 I have taken web server log dataset from https://www.kaggle.com/shawon10/web-log-dataset
 
+ 
